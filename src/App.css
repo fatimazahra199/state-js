@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  
+  
 }
 
 .App-logo {
@@ -35,4 +37,48 @@
   to {
     transform: rotate(360deg);
   }
+}
+body{
+  background-image: url(https://i.pinimg.com/originals/bd/d8/8e/bdd88ec60e0cef726621872cf6312662.jpg);
+  background-size: cover;
+  background-position: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.profile{
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: #282c34;
+  max-height: 100%; */
+  
+
+}
+.image{
+    margin-top: 2rem;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+
+  
+}
+.toggle{
+  width: 10rem;
+  border-radius: 16px;
+  background: linear-gradient(to right, #EBC3B7, #FFFFFF);;
+}
+.profile_items{
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid #DDBBB0;
+  padding: 1rem;
+  box-shadow: 0 10px 20px #f3c1dc;
+  border-radius: 14px;
+  color: #282c34;
 }
